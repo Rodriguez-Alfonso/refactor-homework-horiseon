@@ -1,28 +1,26 @@
-* 
-:root{
-    --background-color-body: #d9dcd6;
-    --background-color-header: #2a607c;
-    --background-color-benefits: #2589bd;
-    --background-color-selections: #0072bb;
-    --text-color-seo: #d9dcd6;
+:root {
+    --primary-color: #2a607c;
+    --secondary-color: #2589bd;
+    --tertiary-color: #0072bb;
+    --light-color: #d9dcd6;
+    --dark-color: #000000;
 }
 
 
-
-{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-color: var(--background-color-body);
+    background-color:var(--light-color);
 }
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    --background-color-header: #2a607c;
+    background-color: #2a607c;
     color: #ffffff;
 }
 
@@ -32,7 +30,7 @@ header h1 {
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color:var(--light-color);
 }
 
 header div {
@@ -94,7 +92,7 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    --background-color-benefits: #2589bd;
+    background-color: #2589bd;
 }
 
 .benefit-lead {
